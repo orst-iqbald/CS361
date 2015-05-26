@@ -14,16 +14,14 @@ while($shirtrow = $shirtresults->fetch_assoc()){
       echo 'name = "shirt" ';
       echo 'value ='.$shirtrow["id"];
       echo ">";
-      echo " Shirt name: ";
+      echo " GPS ";
       echo $shirtrow["name"];
-      echo " Shirt neck: ";
+      echo " Reminders ";
       echo $shirtrow["neck"];
-      echo " Shirt sleeve: ";
+      echo " Weater ";
       echo $shirtrow["sleeve"];
-      echo " Shirt color: ";
+      echo " Vital Signs ";
       echo $shirtrow["color"];
-      echo " Shirt size: ";
-      echo $shirtrow["size"];
       echo '<br>';
       }
 ?>
